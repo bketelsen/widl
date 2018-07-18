@@ -1,0 +1,78 @@
+NodeTypeGlobalModule
+  child-node =>
+    NodeTypeFile
+      end-rune = 396
+      input-source = html-dom
+      start-rune = 0
+      child-node =>
+        NodeTypeDeclaration
+          declaration-kind = interface
+          declaration-name = HTMLAnchorElement
+          declaration-parent-type = HTMLElement
+          end-rune = 357
+          input-source = html-dom
+          start-rune = 0
+          declaration-member =>
+            NodeTypeMember
+              end-rune = 80
+              input-source = html-dom
+              member-attribute = true
+              member-name = target
+              member-type = DOMString
+              start-rune = 55
+            NodeTypeMember
+              end-rune = 121
+              input-source = html-dom
+              member-attribute = true
+              member-name = download
+              member-type = DOMString
+              start-rune = 94
+            NodeTypeMember
+              end-rune = 158
+              input-source = html-dom
+              member-attribute = true
+              member-name = rel
+              member-type = DOMString
+              start-rune = 136
+            NodeTypeMember
+              end-rune = 194
+              input-source = html-dom
+              member-attribute = true
+              member-name = rev
+              member-type = DOMString
+              start-rune = 172
+            NodeTypeMember
+              end-rune = 237
+              input-source = html-dom
+              member-attribute = true
+              member-name = relList
+              member-readonly = true
+              member-type = DOMTokenList
+              start-rune = 199
+            NodeTypeMember
+              end-rune = 278
+              input-source = html-dom
+              member-attribute = true
+              member-name = hreflang
+              member-type = DOMString
+              start-rune = 251
+            NodeTypeMember
+              end-rune = 315
+              input-source = html-dom
+              member-attribute = true
+              member-name = type
+              member-type = DOMString
+              start-rune = 292
+            NodeTypeMember
+              end-rune = 353
+              input-source = html-dom
+              member-attribute = true
+              member-name = text
+              member-type = DOMString
+              start-rune = 330
+        NodeTypeImplementation
+          end-rune = 396
+          implementation-name = HTMLAnchorElement
+          implementation-source = URLUtils
+          input-source = html-dom
+          start-rune = 359
